@@ -68,7 +68,7 @@ export class HomePageService {
 
   errorHandler(error: HttpErrorResponse) {
     console.log(error);
-    return throwError(error.message|| "server error")
+    return throwError(error.message|| "server error!!")
   }
 }
 
